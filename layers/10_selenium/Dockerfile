@@ -1,8 +1,0 @@
-FROM lambci/lambda:build-python3.6
-
-WORKDIR /work
-
-CMD sh
-# CMD pip install --upgrade pip && \
-#   pip install selenium -t /python/lib/python3.10/site-packages && \
-#   zip -r selenium.zip /python/
